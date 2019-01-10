@@ -1,2 +1,2 @@
 # ctfhub
-This is the repo of CTF challenges we made. It contains challenge's source code, docker build file.
+This is the repo of CTF challenges from various competitions we made. It contains challenge's source code, writeup, dockerfile.
