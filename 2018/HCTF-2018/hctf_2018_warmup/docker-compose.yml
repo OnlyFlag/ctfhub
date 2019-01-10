@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: ctftraining/hctf_2018_warmup
+    restart: always
+    ports:
+      - "0.0.0.0:10004:80"
