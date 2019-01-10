@@ -1,7 +1,5 @@
 FROM php:7.0-fpm-alpine
 
-LABEL Author="Virink <virink@outlook.com>"
-
 COPY www /www/
 COPY config /config/
 COPY startcmd /startcmd/

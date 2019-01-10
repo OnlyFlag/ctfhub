@@ -1,7 +1,5 @@
 FROM php:7.0-fpm-alpine
 
-LABEL Author="Virink <virink@outlook.com>"
-
 COPY files /tmp/
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/' /etc/apk/repositories \
